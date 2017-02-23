@@ -4,24 +4,24 @@
              xmlns:local="clr-namespace:XamlAppExample"
              x:Class="XamlAppExample.MainPage"
              BackgroundColor ="#00090C"
-             HorizontalOptions="Center"
              >
 
-  <Button x:Name="clickMe"
+  <Button x:Name="clickMe" Text="Click me!"
           BorderRadius = "20"
           BorderWidth = "20"
           Opacity ="50"
           BackgroundColor ="#FC5130"
           TextColor ="#FFFAFF"
           VerticalOptions="End"
-          HorizontalOptions="FillAndExpand"
+          HorizontalOptions="Center"
           />
 
   <Label x:Name="IAmText" Text="Welcome to Xamarin Forms!" 
          HorizontalOptions="Center"
          BackgroundColor = "#FFFAFF"
-         Color ="#00090C"
-         VerticalOptions="Center"/>
+         TextColor ="#00090C"
+         VerticalOptions="Center"
+         FontAttributes ="Bold"/>
   
   
 </ContentPage>

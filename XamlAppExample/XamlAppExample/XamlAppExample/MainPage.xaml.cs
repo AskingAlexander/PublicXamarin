@@ -16,6 +16,9 @@ namespace XamlAppExample
             InitializeComponent();
             this.Content = new StackLayout
             {
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                Spacing = 20,
+                Padding = 10,
                 Children =
                 {
                    IAmText,
